@@ -68,7 +68,6 @@ const hello2 = function hello2(msg: string) {
     //console.log("Hello " + msg);
     console.log(`Hello  ${msg}`);
 
-
 }
 
 hello2("Type Script-2");
@@ -125,9 +124,7 @@ const map =
 
 let arr: number[] = [4,5,10];
 
-let result = map( 
-    (n: number) : number => {return n*2;} , 
-    arr);
+let result = map((n: number) : number => {return n*2;} , arr);
 
 for(let i = 0; i < result.length; i++)
     console.log(result[i]);
